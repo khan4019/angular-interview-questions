@@ -100,7 +100,7 @@ For the beginners level an interviewer wants to know whether this interviewee is
 
 
 
-Answers link coming soon 
+[Answers link coming soon ]
 
 
 ## Intermediate Level
@@ -111,102 +111,95 @@ In the intermediate level, you built medium size angular app and you played with
 
 ### Essential Terminology Questions
 1. How will you protect a route for authorized user only?
-1. What is a custom pipe and how will you use it?
-1. What is a structural directive?
-1. What is the difference between RouterModule.forRoot() vs RouterModule.forChild()? Why is it important?
-1. What is the difference between a module's forRoot() and forChild() methods and why do you need it?
-1. What's the difference between dirty, touched, and pristine on a form element?
-1. What is an async pipe? What kind of data can be used with async pipe?
-1. What is injectable? Give me some example.
+2. What is a custom pipe and how will you use it?
+3. What is a structural directive?
+4. What is the difference between RouterModule.forRoot() vs RouterModule.forChild()? Why is it important?
+5. What is the difference between a module's forRoot() and forChild() methods and why do you need it?
+6. What's the difference between dirty, touched, and pristine on a form element?
+7. What is an async pipe? What kind of data can be used with async pipe?
+8. What is injectable? Give me some example.
 9. What is a pure pipe?
-1. How will you create two way data binding in Angular?
+10. How will you create two way data binding in Angular?
 
 
 
 ### Comfortability to Build Medium Size App Questions
 1. How do components communicate with each other?
-1. How do you decide to create a new NgModule?
-1. How will you inject custom header in your http call?
-1. How do you identify a structural directive in html?
-1. How would you select a custom component to style it?
-1. How would you select all the child components' elements?
-1. How would you cache an observable data?
-1. How would you cache observable data?
-1. How do you mock a service to inject in a unit test?
-6. How would you run unit test? 
+2. How do you decide to create a new NgModule?
+3. How will you inject custom header in your http call?
+4. How do you identify a structural directive in html?
+5. How would you select a custom component to style it?
+6. How would you select all the child components' elements?
+7. How would you cache an observable data?
+8. How would you cache observable data?
+9. How do you mock a service to inject in a unit test?
+10. How would you run unit test? 
 
 
 
 ### Core Concepts Understandability Questions
 1. Tell me about feature module and shared module?
-1. What would you not put shared module?
-1. Why angular uses decorator?
-1. What is async validation and how is it done?
-1. Why do you need type definitions?
-1. Which components will be notified when an event is emitted?
-1. Why would you export from ngModule?
-1. Why is it bad if SharedModule provides a service to a lazy loaded module?
-1. Can you explain the difference between ActivatedRoute and RouterState?
-1. which service will you put in the module and why
+2. What would you not put shared module?
+3. Why angular uses decorator?
+4. What is async validation and how is it done?
+5. Why do you need type definitions?
+6. Which components will be notified when an event is emitted?
+7. Why would you export from ngModule?
+8. Why is it bad if SharedModule provides a service to a lazy loaded module?
+9. Can you explain the difference between ActivatedRoute and RouterState?
+10. Which service will you put in the module and why?
 
 
 
-
-answers coming soon
+[Answers link coming soon]
 
 
 
 ## Expert Level
 
-you just built hello world in angular2+ and may be you followed some video or blog and now you are brave enough to tell the interviewer that you know little bit angular2. 
+You are a rockstar in angular. you can teach other. you can lead a team for angular project. you should know the answer to the following questions.
 
 ### Performance and Edge case Related Terminology
-1. what is factory Component
-1. What is lazy loading
-1. what is AOT
-1. What are some of the Angular Style Guide suggestions you follow on your code? Why?
-1. what is wildcard state?
-1. How do you put animation between two states?
-1. How will you do lazy loading in angular application
-1. What would be a good use for NgZone service?
-1. How would you protect a component being activated through the router?
-1. How would you insert an embedded view from a prepared TemplateRef?
-
+1. What is factory Component?
+2. What is lazy loading and why will you use it?
+3. What is Ahead of time (AOT) compilation and why will you use it?
+4. What are some of the Angular Style Guide suggestions you follow on your code? Why?
+5. What is wildcard state?
+6. How do you put animation between two states?
+7. What would be a good use for NgZone service?
+8. How would you protect a component being activated through the router?
+9. How would you insert an embedded view from a prepared TemplateRef?
+10. What is attribute directive and why will you use it?
 
 ### Master a Large App Related Questions
-1. How will you http interceptor
-1. How you parallelize multiple observable call
-1. how will you put one async call before another
-1. How can you use web worker in angular app?
-1. What tools would you use to find a performance issue in your code?
-1. What are some ways you may improve your website's scrolling performance?
-1. Explain the difference between layout, painting and compositing.
-1. When does a lazy loaded module is loaded?
-1. How do you identify a structural directive in html?
-1. How would you create a component to display error messages throughout your application?
-1. How can you cancel a router navigation?
-1. why angular uses url segment?
-2. How would you animate routing?
+1. How will you intercept http to inject header to each http call?
+2. How would you create a component to display error messages throughout your application?
+3. How you parallelize multiple observable call?
+4. How will you put one async call before another?
+5. How can you use web worker in angular app?
+6. What tools would you use to find a performance issue in your code?
+7. What are some ways you may improve your website's scrolling performance?
+8. Explain the difference between layout, painting and compositing.
+9. How can you cancel a router navigation?
+10. How would you animate routing?
 
 
 ### Rockstar and Fighter for Angular Questions
-
-1. How would you implement a multiple api calls that needs to happen in order using rxjs?
-1. How would you make sure an api call that needs to be called only once but with multiple conditions. Example: if you need to get some data in multiple routes but, once you get it, you can reuse it in the routes that needs it, therefor no need to make another call to your backend apis.
-1. If you need to respond to two different Observable/Subject with one callback function, how would you do it?(ex: if you need to change the url through route parameters and with prev/next buttons).
-1. How will you make angular app secure?
-placeholder for question: 
-1. translate
-1. localization
-2. environment setup
-3. mastering style
-3. base href
-
+1. When does a lazy loaded module is loaded?
+2. Why angular uses url segment?
+3. How will you make angular app secure?
+4. how will you localize numbers currencies and dates?
+5. What is the best way to use translation in you app?
+6. How will you setup different environment build differently for you app?
+7. How will you use scss or css preprocessing with your application?
+8. How will you optimize image/svg in your angular app?
+9. How would you make sure an api call that needs to be called only once but with multiple conditions. Example: if you need to get some data in multiple routes but, once you get it, you can reuse it in the routes that needs it, therefor no need to make another call to your backend apis.
+10. If you need to respond to two different Observable/Subject with one callback function, how would you do it?(ex: if you need to change the url through route parameters and with prev/next buttons).
 
 
 
-Answers link coming soon 
 
+[Answers link coming soon]
 
 ## Coding Test
 This part coming soon
