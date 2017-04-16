@@ -19,6 +19,9 @@ The goal here is to provide a complete guideline to get that job in angular. Thi
     * [Master a Large App Related Questions](#master-a-large-app-related-questions)
     * [Rockstar and Fighter for angular Questions](#rockstar-and-fighter-for-angular-questions)
 * [Coding Test: Coming soon](#coding-test)
+    * [Fetch Data and Display User Profile]()
+    * [Persistent Todo List]()
+    * [Student Registration System]()
 * Understanding Side things Related Questions (will born soon)
     * testing
     * build and deploy
@@ -202,11 +205,36 @@ You are a rockstar in angular. you can teach other. you can lead a team for angu
 [Answers link coming soon]
 
 ## Coding Test
-This part coming soon
-2. How would you implement a brush behavior using rxjs?
-3. How would you implement a color picker with rxjs?
+Sometimes interviewer would like to give a coding challenge that you have to while they are watching. Some potential employer might give you a day or two to finish a coding challenge. Here are few sample coding challenge
+
+### Fetch Data and Display User Profile
+
+This test has three level
+1. Level 1: Create a textbox to take user input and then Fetch data from https://api.github.com/search/users?q=eric which takes a query string to search users in github. Upon retrieval display total_count and first 10 users in the search result. Detail instruction about this test is available [here](https://github.com/khan4019/github-profile-search)
+2. Level 2: Convert each user profile as router link so that upon clicking on each user profile you will navigate to a route that has "login" property in the route. Pass user.login as route parameter. Create a separate component where you will read the route parameter and then fetch that user information by using this api https://api.github.com/users/eric . Please Notice that last part of the api is the user.login (the route parameter that you have passed). Finally display user image and other information in the component
+3. Level 3: use any charting framework that you can find in the online and then create a simple bar chart to display number of followers of first 10 users
 
 
-Answers link coming soon 
+Focus on this coding test is to judge your ability to use services, component and observables, etc. Always remember unit test, pay attention to variable names, build, etc.
+
+[Sample code link coming soon] 
+
+### Persistent Todo List
+Focuses on how you pass data and events between components. Also whether you are leveraging directives and understand difference between component and directives
+Details coming soon
+
+2. Level 1:  Implement a simple todo list where you can add items, mark as done
+1. Level 2: Now create few categories of todo list and make it persistance in the browser
+3. Level 3: Now use firebase database to make todo list persitance across multiple devices
+
+[Sample code link coming soon]
+
+### Student Registration System
+Focuses on architecture for a large application. Your ability to think and implement module, lazy loading, asset management etc.
+1. Level-1: Design a system where students can login to register different courses 
+2. Level-2: Add a feature so that faculties on each courses can view how many students registered on the courses
+3. Level-3: (I need a shower. will add text here after i clean up myself) 
+
+[Sample code link coming soon]
 
 Few questions are inspired by [Yonet](https://github.com/Yonet/Angular-Interview-Questions)
