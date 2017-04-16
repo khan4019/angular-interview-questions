@@ -8,8 +8,8 @@ The goal here is to provide a complete guideline to get that job in angular
 * [Know the Interviewer](#research-the-interviewer)
 * [Beginners Level](beginners-level)
     * [Beginners level: Terminology Related Questions](#what-category-questions-angular-terminology)
-    * [Beginners level: Doability Related Questions](#question-to-verify-you-did-some-work)
-    * [Beginners level: Understandability Related Questions](#question-about-understanding)
+    * [Beginners level: Doability Related Questions](#how-category-verifies-you-developed-something)
+    * [Beginners level: Understandability Related Questions](#why-category-verifies-you-understand)
 * [Intermediate Level](#intermediate-level)
     * [Intermediate level: Terminology Related Questions]()
     * [Intermediate level: Doability Related questions]()
@@ -89,7 +89,7 @@ you built angular2 you played with routing, https, different built process, unit
 In the intermediate level you are very comfortable with angular. Hence there is no what questions. Actually you know all of them by now. Hence there will be only how and why type questions
 
 
-### What Category Questions
+### What Category Questions (Important Parts of Angular)
 1. What is the difference between RouterModule.forRoot() vs RouterModule.forChild()? Why is it important?
 1. What is the difference between an observable and a promise?
 1. What are some of the angular apis that are using observables?
@@ -108,7 +108,7 @@ In the intermediate level you are very comfortable with angular. Hence there is 
 
 
 
-### How category questions
+### How Category Questions (Verifies you built a real app)
 1. How do components communicate with each other?
 1. How do you create two way data binding in Angular?
 1. What is the purpose of NgModule?
@@ -127,7 +127,7 @@ In the intermediate level you are very comfortable with angular. Hence there is 
 1. How do you mock a module in a unit test?
 
 
-### Why category questions
+### Why Category Questions (Framework understanding)
 1. Why angular2 uses decorator
 1. When will ngOnInit be called?
 1. Why do you need type definitions?
@@ -151,7 +151,7 @@ answers coming soon
 
 you just built hello world in angular2+ and may be you followed some video or blog and now you are brave enough to tell the interviewer that you know little bit angular2. 
 
-### What Category(just few bonus)
+### What Category(You reached corner of the framework)
 1. what is factory Component
 1. What is lazy loading
 1. what is AOT
@@ -164,7 +164,7 @@ you just built hello world in angular2+ and may be you followed some video or bl
 1. How would you insert an embedded view from a prepared TemplateRef?
 
 
-### How Category
+### How Category (you stretched the framework)
 1. How will you http interceptor
 1. How you parallelize multiple observable call
 1. how will you put one async call before another
@@ -177,7 +177,7 @@ you just built hello world in angular2+ and may be you followed some video or bl
 1. How would you create a component to display error messages throughout your application?
 
 
-### Why Category
+### Why Category 
 1. How would you implement a multiple api calls that needs to happen in order using rxjs?
 1. How would you make sure an api call that needs to be called only once but with multiple conditions. Example: if you need to get some data in multiple routes but, once you get it, you can reuse it in the routes that needs it, therefor no need to make another call to your backend apis.
 1. If you need to respond to two different Observable/Subject with one callback function, how would you do it?(ex: if you need to change the url through route parameters and with prev/next buttons).
@@ -187,8 +187,8 @@ you just built hello world in angular2+ and may be you followed some video or bl
 Answers link coming soon 
 
 
-## Coding Test (coming soon)
-
+## Coding Test
+This part coming soon
 2. How would you implement a brush behavior using rxjs?
 3. How would you implement a color picker with rxjs?
 
