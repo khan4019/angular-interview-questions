@@ -5,19 +5,19 @@ The goal here is to provide a complete guideline to get that job in angular. Thi
 
 ## Table of Contents
 * [Understand Your Current Level](#understand-your-current-level)
-* [Know the Interviewer](#research-the-interviewer)
-* [Beginners Level](beginners-level)
-    * [Beginners level: Terminology Related Questions](#what-category-questions-angular-terminology)
-    * [Beginners level: Doability Related Questions](#how-category-verifies-you-developed-something)
-    * [Beginners level: Understandability Related Questions](#why-category-verifies-you-understand)
+* [Know the Interviewer](#know-the-interviewer)
+* [Beginners Level](#beginners-level)
+    * [Familiarity to Basic Terminology Questions](#what-category-questions-angular-terminology)
+    * [Ability to Build Simple App Questions](#how-category-verifies-you-developed-something)
+    * [Understanding Basic Concepts Questions](#why-category-verifies-you-understand)
 * [Intermediate Level](#intermediate-level)
-    * [Intermediate level: Terminology Related Questions]()
-    * [Intermediate level: Doability Related questions]()
-    * [Intermediate level: Understandability Related questions]()
+    * [Essential Terminology Questions]()
+    * [Comfortability to Build Medium Size App Questions]()
+    * [Core Concepts Understandability Questions]()
 * [Expert Level](#expert-level)
-    * [Expert level: Terminology Related Questions]()
-    * [Expert level: Doability Related Questions]()
-    * [Expert level: Understandability Related Questions]()
+    * [Performance and Edge case Related Terminology]()
+    * [Master a Large App Related Questions]()
+    * [Rockstar and Fighter for angular Questions]()
 * [Coding Test: Coming soon](#coding-test)
 
 
@@ -45,7 +45,7 @@ Research the team. Search people in the linked in by company name and then look 
 For the beginners level an interviewer wants to know whehter this interviewee is self learner, trainable. Hence he/she wants to know you are familiar with basic terminology, coded something and understand why you are using some part in a very high level.  
 
 
-### What Category Questions( Angular Terminology)
+### Familiarity to Basic Terminology
 1. What are the difference between angularJS (angular 1.0) and angular2?
 2. What is a component? why would you use it? 
 1. What is the minimum definition of a component?
@@ -59,7 +59,7 @@ For the beginners level an interviewer wants to know whehter this interviewee is
 
 
 
-### How Category (Verifies you developed something)
+### Ability to Build Simple App Questions
 1. How do components communicate with each other?
 1. How do you create two way data binding in Angular?
 6. How you build an angular app for production
@@ -73,7 +73,7 @@ For the beginners level an interviewer wants to know whehter this interviewee is
 
 
 
-### Why Category (Verifies you Understand)
+### Understanding Basic Concepts Questions
 2. Why would you use angular-cli 
 3. What are the difference between a component and a directive
 6. Why would you use typescript aka benefits of typescript
@@ -89,7 +89,7 @@ you built angular2 you played with routing, https, different built process, unit
 In the intermediate level you are very comfortable with angular. Hence there is no what questions. Actually you know all of them by now. Hence there will be only how and why type questions
 
 
-### What Category Questions (Important Parts of Angular)
+### Essential Terminology Questions
 1. What is the difference between RouterModule.forRoot() vs RouterModule.forChild()? Why is it important?
 1. What is the difference between an observable and a promise?
 1. What are some of the angular apis that are using observables?
@@ -108,7 +108,7 @@ In the intermediate level you are very comfortable with angular. Hence there is 
 
 
 
-### How Category Questions (Verifies you built a real app)
+### Comfortability to Build Medium Size App Questions
 1. How do components communicate with each other?
 1. How do you create two way data binding in Angular?
 1. What is the purpose of NgModule?
@@ -127,7 +127,7 @@ In the intermediate level you are very comfortable with angular. Hence there is 
 1. How do you mock a module in a unit test?
 
 
-### Why Category Questions (Framework understanding)
+### Core Concepts Understandability Questions
 1. Why angular2 uses decorator
 1. When will ngOnInit be called?
 1. Why do you need type definitions?
@@ -151,7 +151,7 @@ answers coming soon
 
 you just built hello world in angular2+ and may be you followed some video or blog and now you are brave enough to tell the interviewer that you know little bit angular2. 
 
-### What Category(You reached corner of the framework)
+### Performance and Edge case Related Terminology
 1. what is factory Component
 1. What is lazy loading
 1. what is AOT
@@ -164,7 +164,7 @@ you just built hello world in angular2+ and may be you followed some video or bl
 1. How would you insert an embedded view from a prepared TemplateRef?
 
 
-### How Category (you stretched the framework)
+### Master a Large App Related Questions
 1. How will you http interceptor
 1. How you parallelize multiple observable call
 1. how will you put one async call before another
@@ -177,7 +177,7 @@ you just built hello world in angular2+ and may be you followed some video or bl
 1. How would you create a component to display error messages throughout your application?
 
 
-### Why Category 
+### Rockstar and Fighter for Angular Questions
 1. How would you implement a multiple api calls that needs to happen in order using rxjs?
 1. How would you make sure an api call that needs to be called only once but with multiple conditions. Example: if you need to get some data in multiple routes but, once you get it, you can reuse it in the routes that needs it, therefor no need to make another call to your backend apis.
 1. If you need to respond to two different Observable/Subject with one callback function, how would you do it?(ex: if you need to change the url through route parameters and with prev/next buttons).
