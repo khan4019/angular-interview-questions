@@ -9,42 +9,54 @@ The goal here is to provide a complete guideline to get that job in angular
 * [Beginners level: Terminology related questions](#what-category-questions-angular-terminology)
 * [Beginners level: Doability related questions](#question-to-verify-you-did-some-work)
 * [Beginners level: Understandability related questions](#question-about-understanding)
+* [Intermediate level: Terminology related questions]()
+* [Intermediate level: Doability related questions]()
+* [Intermediate level: Understandability related questions]()
+* [Expert level: Terminology related questions]()
+* [Expert level: Doability related questions]()
+* [Expert level: Understandability related questions]()
+* [Beginners level: Understandability related questions]()
 
 
-## Start with yourself
-The most important step to get that job is to understand yourself. your skill. your strength and your weakness as well. If you don't feel confident about any part. Do a favor yourself by googling and spend few minutes to go throw some blog or youtube videos
+## Understand Your Current Level
+The most important step to get that job is to understand yourself. your skill. your strength and your weakness as well. If you don't feel confident about any part. Do a favor yourself by googling and spend few minutes to go throw some blog or youtube videos. 
+
+* If you can create a angular app by using angular-cli or any other seed. also understand component, module, pipes, service, etc. you can consider yourself in the beginners level.If you don't have any clue what I am talking about, watch this [video](https://www.youtube.com/watch?v=rOr1r1rSZQ8) and follow steps.
+* If you have full functional app that is deployed somewhere or have code in github. you understand detail about routing module breakdown, unit test, styling, build etc., you can consider yourself in intermediate level
+* If you master in lazy loading, AOT, you can put yourself in the expert level
+* Rest of the people are either angular dumb or angular rockstar. 
 
 
-## Research the interviewer
+## Research Interviewer
 Do a favor to yourself. Goggole the interviewer. Look at his/her linkedin provile. Check whether he/she has any youtube video, talk or active blog. and after your research try to put the interviewer in one of the following category
 1. Lazy interviewer asks about terminology. Sometimes they google questions and ask you from there. For them see the Termninology related questions
 2. Modest and nicer interview wants to check whether you can get the job done. and you know stuff. For this kind of interviewer look at the How category questions
 3. Smart interviewer wants to know that you think, you compare and analyze stuff to make consious decisions. For these type of nerdy inteviewer (they would love to prove you wrong. and one important tip: don't try to prove them wrong) you should study why type of questions
 
 
-## Beginner level
-
-You just built hello world in angular2+ and may be you followed some video or blog but you have the courage to tell the interviewer that you know little bit angular2. 
+Research the team. Search people in the linked in by company name and then look their profile in github. 
 
 
+## Beginners Level
 
-### What category Questions( Angular terminology)
-1. What are the difference between angularJS (angular 1.0) and angular2
-2. What is a component 
+For the beginners level an interviewer wants to know whehter this interviewee is self learner, trainable. Hence he/she wants to know you are familiar with basic terminology, coded something and understand why you are using some part in a very high level.  
+
+
+### What Category Questions( Angular Terminology)
+1. What are the difference between angularJS (angular 1.0) and angular2?
+2. What is a component? why would you use it? 
 1. What is the minimum definition of a component?
-3. What is a module
-4. What design framework you have used and why
-5. What is a service
-5. What is a promise
-7. What are the  life cycle hooks for component and directives
-8. What is pipes
+3. What is a module and what does it contains?
+5. What is a service and why will you use it?
+5. What is a promise? Explain it in simple words.
+7. What are the  life cycle hooks for component and directives?
+8. What is pipes?
 9. What is a pure pipe?
-9. What is authGuard 
 1. What is dumb component
 
 
 
-### Question to verify you did some work
+### How Category (Verifies you developed something)
 1. How do components communicate with each other?
 1. How do you create two way data binding in Angular?
 6. How you build an angular app for production
@@ -58,25 +70,23 @@ You just built hello world in angular2+ and may be you followed some video or bl
 
 
 
-### Question about understanding
+### Why Category (Verifies you Understand)
 2. Why would you use angular-cli 
-4. Why would you use a component
-1. Why will you use a module
 3. What are the difference between a component and a directive
-5. Why would you use a module
 6. Why would you use typescript aka benefits of typescript
 
 
 Answers link coming soon 
 
-## intermediate developer
+
+## Intermediate Level
 
 you built angular2 you played with routing, https, different built process, unit test, etc. here are the questions you could expect
 
-In the intermediate level you are very compfortable with angular2. Hence there is no what questions. Actually you know all of them by now. Hence there will be only how and why type questions
+In the intermediate level you are very comfortable with angular. Hence there is no what questions. Actually you know all of them by now. Hence there will be only how and why type questions
 
 
-### What category questions (just few bonus)
+### What Category Questions
 1. What is the difference between RouterModule.forRoot() vs RouterModule.forChild()? Why is it important?
 1. What is the difference between an observable and a promise?
 1. What are some of the angular apis that are using observables?
@@ -90,6 +100,7 @@ In the intermediate level you are very compfortable with angular2. Hence there i
 1. What is the difference between ngOnInit() and constructor() of a component?
 1. When will ngOnInit be called?
 1. How would you make use of ngOnInit()?
+9. What is authGuard 
 
 
 
@@ -137,9 +148,7 @@ answers coming soon
 
 you just built hello world in angular2+ and may be you followed some video or blog and now you are brave enough to tell the interviewer that you know little bit angular2. 
 
-### Expect the following questions
-
-
+### What Category(just few bonus)
 1. what is factory Component
 1. What is lazy loading
 1. what is AOT
@@ -152,7 +161,7 @@ you just built hello world in angular2+ and may be you followed some video or bl
 1. How would you insert an embedded view from a prepared TemplateRef?
 
 
-## How
+### How Category
 1. How will you http interceptor
 1. How you parallelize multiple observable call
 1. how will you put one async call before another
@@ -165,7 +174,7 @@ you just built hello world in angular2+ and may be you followed some video or bl
 1. How would you create a component to display error messages throughout your application?
 
 
-
+### Why Category
 1. How would you implement a multiple api calls that needs to happen in order using rxjs?
 1. How would you make sure an api call that needs to be called only once but with multiple conditions. Example: if you need to get some data in multiple routes but, once you get it, you can reuse it in the routes that needs it, therefor no need to make another call to your backend apis.
 1. If you need to respond to two different Observable/Subject with one callback function, how would you do it?(ex: if you need to change the url through route parameters and with prev/next buttons).
@@ -177,14 +186,9 @@ Answers link coming soon
 
 ## Coding Test
 
-you just built hello world in angular2+ and may be you followed some video or blog and now you are brave enough to tell the interviewer that you know little bit angular2. 
-
-### Expect the following questions
-
-
-How would you implement a brush behavior using rxjs?
-How would you implement a color picker with rxjs?
-
+1. you just built hello world in angular2+ and may be you followed some video or blog and now you are brave enough to tell the interviewer that you know little bit angular2. 
+2. How would you implement a brush behavior using rxjs?
+3. How would you implement a color picker with rxjs?
 
 
 Answers link coming soon 
