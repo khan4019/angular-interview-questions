@@ -19,6 +19,15 @@ The goal here is to provide a complete guideline to get that job in angular. Thi
     * [Master a Large App Related Questions](#master-a-large-app-related-questions)
     * [Rockstar and Fighter for angular Questions](#rockstar-and-fighter-for-angular-questions)
 * [Coding Test: Coming soon](#coding-test)
+* Side things Related questions
+    * testing
+    * build and deploy
+    * rxjs
+    * typescript
+    * zonejs    
+* Tools
+    * angular-cli
+    * build tools
 
 
 ## Understand Your Current Level
