@@ -6,11 +6,6 @@
 You just built hello world in angular2+ and may be you followed some video or blog but you have the courage to tell the interviewer that you know little bit angular2. 
 
 
-## Research the interviewer
-Do a favor to yourself. Goggole the interviewer. Look at his/her linkedin provile. Check whether he/she has any youtube video, talk or active blog. and after your research try to put the interviewer in one of the following category
-1. Lazy interviewer asks about terminology. Sometimes they google questions and ask you from there. For them see the Termninology related questions
-2. Modest and nicer interview wants to check whether you can get the job done. and you know stuff. For this kind of interviewer look at the How category questions
-3. Smart interviewer wants to know that you think, you compare and analyze stuff to make consious decisions. For these type of nerdy inteviewer (they would love to prove you wrong. and one important tip: don't try to prove them wrong) you should study why type of questions
 
 ## Expect the following questions
 
