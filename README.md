@@ -1,6 +1,6 @@
 # Angular Interview Questions
 
-The goal here is to provide a complete guideline to get that job in angular
+The goal here is to provide a complete guideline to get that job in angular. This repo is in baby stage. So feel free to slap with pull requests.
 
 
 ## Table of Contents
