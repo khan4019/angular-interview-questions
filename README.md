@@ -19,73 +19,82 @@ The goal here is to provide a complete guideline to get that job in angular. Thi
     * [Master a Large App Related Questions](#master-a-large-app-related-questions)
     * [Rockstar and Fighter for angular Questions](#rockstar-and-fighter-for-angular-questions)
 * [Coding Test: Coming soon](#coding-test)
-* Side things Related questions
+* Understanding Side things Related Questions (will born soon)
     * testing
     * build and deploy
+    * es6
     * rxjs
     * typescript
     * zonejs    
-* Tools
+    * material2
+    * localization/ translation
+* Tools expertise related Questions (keep your pant tights for this)
     * angular-cli
     * build tools
 
 
 ## Understand Your Current Level
-The most important step to get that job is to understand yourself. your skill. your strength and your weakness as well. If you don't feel confident about any part. Do a favor yourself by googling and spend few minutes to go throw some blog or youtube videos. 
+The most important step to understand yourself. If needed improve your skill, strength and confidence. If you don't feel confident about anything, do a favor tjo yourself by googling and spend few minutes to read some blog or youtube videos. And then check which level you are in terms of your angular skills.
 
-* If you can create a angular app by using angular-cli or any other seed. also understand component, module, pipes, service, etc. you can consider yourself in the beginners level.If you don't have any clue what I am talking about, watch this [video](https://www.youtube.com/watch?v=rOr1r1rSZQ8) and follow steps.
-* If you have full functional app that is deployed somewhere or have code in github. you understand detail about routing module breakdown, unit test, styling, build etc., you can consider yourself in intermediate level
-* If you master in lazy loading, AOT, you can put yourself in the expert level
-* Rest of the people are either angular dumb or angular rockstar. 
+* If you can create a angular app by using angular-cli or any other seed. Also understand component, module, pipes, service, etc. you can consider yourself in the beginners level. If you don't have any clue what I am talking about, watch this [video](https://www.youtube.com/watch?v=rOr1r1rSZQ8) and become beginners level.
+* If you have full functional app that is deployed somewhere and/or published code in github and you understand detail about routing module breakdown, unit test, architecture, etc., you can consider yourself in intermediate level angular developer.
+* If you master in lazy loading, AOT, custom directive, deployment configuration, etc. you can put yourself in the expert level.
+* Rest of the people are either angular blind or angular rock star. 
 
 
 ## Know the Interviewer
-Do a favor to yourself. Goggole the interviewer. Look at his/her linkedin provile. Check whether he/she has any youtube video, talk or active blog. and after your research try to put the interviewer in one of the following category
-1. Lazy interviewer asks about terminology. Sometimes they google questions and ask you from there. For them see the Termninology related questions
+Do a favor to yourself. Google the interviewer. Look at his/her Linkedin profile. Check his/her youtube videos, old blog that wasn't developed in years and github profile. After your research try to put the interviewer in one of the following categories.
+1. Lazy interviewer asks about terminology. Sometimes they google questions and ask you from there. They mostly ask termninology related questions. Mostly old managers ask these type of questions.
 2. Modest and nicer interview wants to check whether you can get the job done. and you know stuff. For this kind of interviewer look at the How category questions
-3. Smart interviewer wants to know that you think, you compare and analyze stuff to make consious decisions. For these type of nerdy inteviewer (they would love to prove you wrong. and one important tip: don't try to prove them wrong) you should study why type of questions
+3. Smart interviewer (the guy who is a senior developer for a long time and has updated blogs and videos) wants to know that you think, you compare and analyze stuff to make consious decisions. For these type of nerdy interviewer (they would love to prove you wrong. and one important tip: don't try to prove them wrong) you should study why type of questions
 
 
-Research the team. Search people in the linked in by company name and then look their profile in github. 
+Research team  member as well. Search people in the linked in by the company name and then look their profile in github. 
 
 
 ## Beginners Level
 
-For the beginners level an interviewer wants to know whehter this interviewee is self learner, trainable. Hence he/she wants to know you are familiar with basic terminology, coded something and understand why you are using some part in a very high level.  
+For the beginners level an interviewer wants to know whether this interviewee is a self learner, trainable. Hence he/she might asks question about basic terminology, your ability to build some simple app and high level understanding.  
 
 
 ### Familiarity to Basic Terminology
 1. What are the difference between angularJS (angular 1.0) and angular2?
 2. What is a component? why would you use it? 
-1. What is the minimum definition of a component?
-3. What is a module and what does it contains?
+3. What is the minimum definition of a component?
+4. What is a module and what does it contains?
 5. What is a service and why will you use it?
-5. What is a promise? Explain it in simple words.
+6. What is a promise? Explain it in simple words.
 7. What are the  life cycle hooks for component and directives?
 8. What is pipes?
-9. What is a pure pipe?
-1. What is dumb component
+9. What is a service and why would you use it?
+10. What is a dumb component? and what are the benefits of dumb component?
 
 
 
 ### Ability to Build Simple App Questions
 1. How do components communicate with each other?
-1. How do you create two way data binding in Angular?
-6. How you build an angular app for production
-6. How would you run unit test 
-7. How you create custom pipes
-8. Which life cycle hook will you use to unsbscribe a promise
-1. How can you get current state of a route
-2. How will you protect a route for authorized user only
-1. How to use http service to load data from serve
-1. How are the services injected to your application?
+2. How would you use http to load data from server? 
+3. How do you create route in angular app?
+4. How can you get current state of a route?
+5. How do you create two way data binding in Angular?
+6. How to load external module in angular app?
+7. How you build an angular app for production?
+8. Which life cycle hook will you use to unsbscribe a promise?
+9. How are the services injected to your application?
+10. How would you create route parameter and access it from a component?
 
 
 
 ### Understanding Basic Concepts Questions
-2. Why would you use angular-cli 
-3. What are the difference between a component and a directive
-6. Why would you use typescript aka benefits of typescript
+1. Why would you use angular over some other framework like react?
+2. Difference between promise and observable?
+3. Tell me the difference between a component and a directive?
+4. Why would you use typescript aka benefits of typescript?
+5. Why different life cycle hooks is needed for a component/directive?
+6. Why angular uses rxjs
+7. what is the purpose of using zone js
+
+
 
 
 Answers link coming soon 
@@ -113,6 +122,8 @@ In the intermediate level you are very comfortable with angular. Hence there is 
 1. When will ngOnInit be called?
 1. How would you make use of ngOnInit()?
 9. What is authGuard 
+1. What is injectable? Give me some example.
+9. What is a pure pipe?
 
 
 
@@ -128,12 +139,15 @@ In the intermediate level you are very comfortable with angular. Hence there is 
 1. How would you make use of ngOnInit()?
 1. How would you cache an observable data?
 1. How will you inject header
+7. How you create custom pipes
 1. How would you create a custom pipe?
 1. How would you pass data from a parent component to a child component?
 1. How would you pass data from a child component to a parent component?
 1. How would you cache observable data?
 1. How do you mock a service to inject in a unit test?
 1. How do you mock a module in a unit test?
+6. How would you run unit test? 
+2. How will you protect a route for authorized user only
 
 
 ### Core Concepts Understandability Questions
@@ -177,19 +191,31 @@ you just built hello world in angular2+ and may be you followed some video or bl
 1. How will you http interceptor
 1. How you parallelize multiple observable call
 1. how will you put one async call before another
-
+1. How can you use web worker in angular app?
 1. What tools would you use to find a performance issue in your code?
 1. What are some ways you may improve your website's scrolling performance?
 1. Explain the difference between layout, painting and compositing.
 1. When does a lazy loaded module is loaded?
 1. How do you identify a structural directive in html?
 1. How would you create a component to display error messages throughout your application?
+1. How can you cancel a router navigation?
+1. why angular uses url segment?
+2. How would you animate routing?
 
 
 ### Rockstar and Fighter for Angular Questions
+
 1. How would you implement a multiple api calls that needs to happen in order using rxjs?
 1. How would you make sure an api call that needs to be called only once but with multiple conditions. Example: if you need to get some data in multiple routes but, once you get it, you can reuse it in the routes that needs it, therefor no need to make another call to your backend apis.
 1. If you need to respond to two different Observable/Subject with one callback function, how would you do it?(ex: if you need to change the url through route parameters and with prev/next buttons).
+1. How will you make angular app secure?
+placeholder for question: 
+1. translate
+1. localization
+2. environment setup
+3. mastering style
+3. base href
+
 
 
 
