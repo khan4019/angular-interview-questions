@@ -1,39 +1,32 @@
 # Angular Interview Questions
 
-The goal here is to provide a complete guideline to get that job in angular. This repo is in baby stage. So feel free to slap with pull requests.
+A complete guideline to prepare for angular interview. Also you can use these question to upgrade your expertise in angular. 
 
 
 ## Table of Contents
 * [Understand Your Current Level](#understand-your-current-level)
 * [Know the Interviewer](#know-the-interviewer)
-* [Beginners Level](#beginners-level)
-    * [Familiarity to Basic Terminology Questions](#familiarity-to-basic-terminology)
-    * [Ability to Build Simple App Questions](#ability-to-build-simple-app-questions)
-    * [Understanding Basic Concepts Questions](#understanding-basic-concepts-questions)
-* [Intermediate Level](#intermediate-level)
-    * [Essential Terminology Questions](#essential-terminology-questions)
-    * [Comfortability to Build Medium Size App Questions](#comfortability-to-build-medium-size-app-questions)
-    * [Core Concepts Understandability Questions](#core-concepts-understandability-questions)
-* [Expert Level](#expert-level)
+* [Beginners Level Question](#beginners-level)
+    * [Familiarity to Basic Terminology](#familiarity-to-basic-terminology)
+    * [Ability to Build Simple App](#ability-to-build-simple-app-questions)
+    * [Understanding Basic Concepts](#understanding-basic-concepts-questions)
+* [Intermediate Level Questions](#intermediate-level)
+    * [Essential Terminology](#essential-terminology-questions)
+    * [Comfortability to Build Medium Size App](#comfortability-to-build-medium-size-app-questions)
+    * [Core Concepts Understandability](#core-concepts-understandability-questions)
+* [Expert Level Questions](#expert-level)
     * [Performance and Edge Case Related Terminology](#performance-and-edge-case-related-terminology)
-    * [Master a Large App Related Questions](#master-a-large-app-related-questions)
-    * [Rockstar and Fighter for angular Questions](#rockstar-and-fighter-for-angular-questions)
-* [Coding Test: Coming soon](#coding-test)
-    * [Fetch Data and Display User Profile]()
-    * [Persistent Todo List]()
-    * [Student Registration System]()
-* Understanding Side things Related Questions (will born soon)
-    * testing
-    * build and deploy
-    * es6
-    * rxjs
-    * typescript
-    * zonejs    
-    * material2
-    * localization/ translation
-* Tools expertise related Questions (keep your pant tights for this)
-    * angular-cli
-    * build tools
+    * [Master a Large App Related](#master-a-large-app-related-questions)
+    * [Rock star and Fighter for angular](#rockstar-and-fighter-for-angular-questions)
+* [Coding Test Question](#coding-test)
+    * [Fetch Data and Display User Profile](#fetch-data-and-display-user-profile)
+    * [Persistent Todo List](#persistent-todo-list)
+    * [Student Registration System](#student-registration-system)
+* [Side Things Related Questions](#side-things-related-questions)
+    * [rxjs](#rxjs)
+    * [TypeScript](#typescript)
+    * [angular-cli](#angular-cli)
+    * [others](#others)
 
 
 ## Understand Your Current Level
@@ -135,8 +128,8 @@ In the intermediate level, you built medium size angular app and you played with
 6. How would you select all the child components' elements?
 7. How would you cache an observable data?
 8. How would you cache observable data?
-9. How do you mock a service to inject in a unit test?
-10. How would you run unit test? 
+9. How Event Emitters works in Angular?
+10. How do you mock a service to inject in a unit test?
 
 
 
@@ -223,8 +216,8 @@ Focus on this coding test is to judge your ability to use services, component an
 Focuses on how you pass data and events between components. Also whether you are leveraging directives and understand difference between component and directives
 Details coming soon
 
-2. Level 1:  Implement a simple todo list where you can add items, mark as done
-1. Level 2: Now create few categories of todo list and make it persistance in the browser
+1. Level 1:  Implement a simple todo list where you can add items, mark as done
+2. Level 2: Now create few categories of todo list and make it persistance in the browser
 3. Level 3: Now use firebase database to make todo list persitance across multiple devices
 
 [Sample code link coming soon]
@@ -237,4 +230,44 @@ Focuses on architecture for a large application. Your ability to think and imple
 
 [Sample code link coming soon]
 
-Few questions are inspired by [Yonet](https://github.com/Yonet/Angular-Interview-Questions)
+## Side Things Related Questions
+
+### rxjs
+1. Why angular uses rxjs?
+2. How would you explain Observable?
+3. Why unsubscribing is important?
+4. what is forkJoin, flat map, zip
+5. Difference between hot and cold observables
+
+### TypeScript
+1. How to debug a typescript file?
+2. How do you implement interface in typescript?
+3. How would you call base class constructor from child class in typescript?
+4. What is typescript language service?
+5. How to declare a custom type?
+6. what are the some disadvantages of typescirpt? answers [here](https://www.codeproject.com/Articles/1071285/Latest-TypeScript-Interview-Questions-for-Beginner) 
+
+### angular-cli
+1. Why would you use angular cli?
+2. How would you run unit test? 
+3. How do you create application to use scss
+4. How to inject base href
+5. How would you extract webpack config from angular cli project?
+
+
+### Others
+1. What is the use of codelyzer?
+2. Will you use Angular Material2?
+3. How would you buyild and deploy your app in multiple languages?
+4. How would you set different config in different deployment server?
+5. What do you know about ES6?
+
+[Answers link coming soon]
+
+
+## Contribute
+Feel free to provide questions and update language
+___________
+
+
+Few questions are inspired by [Yonet](https://github.com/Yonet/Angular-Interview-Questions), [codeProject](https://www.codeproject.com/Articles/1169073/Angular-Interview-Questions)
