@@ -1,0 +1,441 @@
+body {
+    margin: 0;
+}
+
+
+/* Disable ugly boxes around images in IE10 */
+
+a img {
+    border: 0px;
+}
+
+::-moz-selection {
+    background-color: #6ab344;
+    color: #fff;
+}
+
+::selection {
+    background-color: #6ab344;
+    color: #fff;
+}
+
+.dude-search-box .mdl-textfield__input {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.dude-header .mdl-menu__container {
+    z-index: 50;
+    margin: 0 !important;
+}
+
+.mdl-textfield--expandable {
+    width: auto;
+}
+
+.dude-fab {
+    position: absolute;
+    right: 20%;
+    bottom: -26px;
+    z-index: 3;
+    background: #64ffda !important;
+    color: black !important;
+}
+
+.dude-mobile-title {
+    display: none !important;
+}
+
+.logo-main {
+    height: 45px;
+    width: 250px;
+}
+
+.logo-white {
+    height: 70px;
+    width: 180px;
+}
+
+.dude-header {
+    overflow: visible;
+    background-color: white;
+}
+
+.dude-header .material-icons {
+    color: #767777 !important;
+}
+
+.dude-header .mdl-layout__drawer-button {
+    background: transparent;
+    color: #767777;
+}
+
+.dude-header .mdl-navigation__link {
+    color: #757575;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.dude-navigation-container {
+    /* Simple hack to make the overflow happen to the left instead... */
+    direction: rtl;
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    width: 500px;
+    -webkit-transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.dude-navigation {
+    /* ... and now make sure the content is actually LTR */
+    direction: ltr;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    width: 800px;
+}
+
+.dude-search-box.is-focused+.dude-navigation-container {
+    opacity: 0;
+    width: 100px;
+}
+
+.dude-navigation .mdl-navigation__link {
+    display: inline-block;
+    height: 60px;
+    line-height: 68px;
+    background-color: transparent !important;
+    border-bottom: 4px solid transparent;
+}
+
+.dude-navigation .mdl-navigation__link:hover {
+    border-bottom: 4px solid #8bc34a;
+}
+
+.dude-search-box {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.dude-more-button {
+    -webkit-box-ordinal-group: 4;
+    -webkit-order: 3;
+    -ms-flex-order: 3;
+    order: 3;
+}
+
+.dude-drawer {
+    border-right: none;
+}
+
+.dude-drawer-separator {
+    height: 1px;
+    background-color: #dcdcdc;
+    margin: 8px 0;
+}
+
+.dude-drawer .mdl-navigation__link.mdl-navigation__link {
+    font-size: 14px;
+    color: #757575;
+}
+
+.dude-drawer span.mdl-navigation__link.mdl-navigation__link {
+    color: #8bc34a;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.dude-drawer .mdl-layout-title {
+    position: relative;
+    background: #6ab344;
+    height: 160px;
+}
+
+.dude-drawer .dude-logo {
+    position: absolute;
+    bottom: 16px;
+}
+
+.dude-be-together-section {
+    position: relative;
+    height: 250px;
+    width: auto;
+    background-color: #f3f3f3;
+    /*background: url('../images/slide01.jpg') center 30% no-repeat;*/
+    background-size: cover;
+}
+
+.logo-font {
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    line-height: 1;
+    color: #767777;
+    font-weight: 500;
+}
+
+.dude-slogan {
+    font-size: 60px;
+    padding-top: 60px;
+}
+
+.dude-sub-slogan {
+    font-size: 21px;
+    padding-top: 24px;
+}
+
+.dude-create-character {
+    font-size: 21px;
+    padding-top: 400px;
+}
+
+.dude-create-character a {
+    text-decoration: none;
+    color: #767777;
+    font-weight: 300;
+}
+
+.question-section {
+    position: relative;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.question-container {
+    width: 60%;
+    margin: 0 auto 1em auto;
+    padding: 3em;
+    text-align: left;
+}
+
+.question-screen .question-link {
+    margin-top: 16px;
+    display: inline-block;
+    z-index: 2;
+}
+
+.dude-wear-section {
+    position: relative;
+    background-size: cover;
+    height: 200px;
+}
+
+.dude-wear-band {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #37474f;
+}
+
+.dude-wear-band-text {
+    max-width: 800px;
+    margin-left: 25%;
+    padding: 24px;
+    text-align: left;
+    color: white;
+}
+
+.dude-wear-band-text p {
+    padding-top: 8px;
+}
+
+.question-link {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.question-link a {
+    text-decoration: none;
+}
+
+.question-link:hover {
+    color: #7cb342 !important;
+}
+
+.dude-alt-link {
+    text-decoration: none;
+    color: #64ffda !important;
+    font-size: 16px;
+}
+
+.dude-alt-link:hover {
+    color: #00bfa5 !important;
+}
+
+.dude-alt-link .material-icons {
+    position: relative;
+    top: 6px;
+}
+
+.dude-customized-section {
+    text-align: center;
+}
+
+.dude-customized-section-text {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px 16px 0 16px;
+}
+
+.dude-customized-section-text p {
+    padding-top: 16px;
+}
+
+.dude-customized-section-image {
+    height: 200px;
+}
+
+.dude-more-section {
+    padding: 80px 0;
+    max-width: 1044px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dude-more-section .dude-section-title {
+    margin-left: 12px;
+    padding-bottom: 24px;
+}
+
+.dude-card-container .mdl-card__media {
+    overflow: hidden;
+    background: transparent;
+}
+
+.dude-card-container .mdl-card__media img {
+    width: 100%;
+}
+
+.dude-card-container .mdl-card__title {
+    background: transparent;
+    height: auto;
+}
+
+.dude-card-container .mdl-card__title-text {
+    color: black;
+    height: auto;
+}
+
+.dude-card-container .mdl-card__supporting-text {
+    height: auto;
+    color: black;
+    padding-bottom: 48px;
+}
+
+.dude-card-container .mdl-card__actions {
+    position: absolute;
+    bottom: 0;
+}
+
+.dude-card-container .mdl-card__actions a {
+    border-top: none;
+    line-height: 32px;
+    font-size: 16px;
+}
+
+.dude-footer {
+    background-color: #fafafa;
+    position: relative;
+}
+
+.dude-footer a:hover {
+    color: #8bc34a;
+}
+
+.dude-footer .mdl-mega-footer--top-section::after {
+    border-bottom: none;
+}
+
+.dude-footer .mdl-mega-footer--middle-section::after {
+    border-bottom: none;
+}
+
+.dude-footer .mdl-mega-footer--bottom-section {
+    position: relative;
+}
+
+.dude-footer .mdl-mega-footer--bottom-section a {
+    margin-right: 2em;
+}
+
+.dude-footer .mdl-mega-footer--right-section a .material-icons {
+    position: relative;
+    top: 6px;
+}
+
+.dude-link-menu:hover {
+    cursor: pointer;
+}
+
+
+/**** Mobile layout ****/
+
+@media (max-width: 900px) {
+    .dude-navigation-container {
+        display: none;
+    }
+    .dude-title {
+        display: none !important;
+    }
+    .dude-mobile-title {
+        display: block !important;
+        position: absolute;
+        left: calc(50% - 70px);
+        top: 12px;
+        -webkit-transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    /* WebViews in iOS 9 break the "~" operator, and WebViews in OS X 10.10 break
+     consecutive "+" operators in some cases. Therefore, we need to use both
+     here to cover all the bases. */
+    .dude.dude-search-box.is-focused~.dude-mobile-title,
+    .dude-search-box.is-focused+.dude-navigation-container+.dude-mobile-title {
+        opacity: 0;
+    }
+    .dude-more-button {
+        display: none;
+    }
+    .dude-search-box.is-focused {
+        width: calc(100% - 48px);
+    }
+    .dude-search-box .mdl-textfield__expandable-holder {
+        width: 100%;
+    }
+    .dude-be-together-section {
+        height: 350px;
+    }
+    .dude-slogan {
+        font-size: 26px;
+        margin: 0 16px;
+        padding-top: 24px;
+    }
+    .dude-sub-slogan {
+        font-size: 16px;
+        margin: 0 16px;
+        padding-top: 8px;
+    }
+    .dude-create-character {
+        padding-top: 200px;
+        font-size: 16px;
+    }
+    .dude-create-character img {
+        height: 12px;
+    }
+    .dude-fab {
+        display: none;
+    }
+    .dude-wear-band-text {
+        margin-left: 0;
+        padding: 16px;
+    }
+    .dude-footer .mdl-mega-footer--bottom-section {
+        display: none;
+    }
+}

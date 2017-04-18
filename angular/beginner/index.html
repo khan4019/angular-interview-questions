@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Angular Interview Questions for beginners level">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Angular Interview Questions - Beginners</title>
+
+  <!-- Page styles -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/material.min.css">
+  <link rel="stylesheet" href="../styles/styles.css">
+  <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+    <div class="dude-header mdl-layout__header mdl-layout__header--waterfall">
+      <div class="mdl-layout__header-row">
+        <span class="dude-title mdl-layout-title">
+            <img class="dude-logo logo-main" src="../images/logo.png">
+          </span>
+        <!-- Add spacer, to align navigation to the right in desktop -->
+        <div class="dude-header-spacer mdl-layout-spacer"></div>
+        <div class="dude-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+          <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
+              <i class="material-icons">search</i>
+            </label>
+          <div class="mdl-textfield__expandable-holder">
+            <input class="mdl-textfield__input" type="text" id="search-field">
+          </div>
+        </div>
+        <!-- Navigation -->
+        <div class="dude-navigation-container">
+          <nav class="dude-navigation mdl-navigation">
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Beginners</a>
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Intermediate</a>
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Expertr</a>
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Coding Test</a>
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Basic JS</a>
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">CSS</a>
+          </nav>
+        </div>
+        <span class="dude-mobile-title mdl-layout-title">
+            <img class="dude-logo-image" src="../images/logo.png">
+          </span>
+        <button class="dude-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+            <i class="material-icons">more_vert</i>
+          </button>
+        <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+          <li class="mdl-menu__item">Beginners Level-Terminology</li>
+          <li class="mdl-menu__item">Beginners Level-Coding Ability</li>
+          <li disabled class="mdl-menu__item">Beginners Level- Understandability</li>
+          <li class="mdl-menu__item">dude History</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="dude-drawer mdl-layout__drawer">
+      <span class="mdl-layout-title">
+          <img class="dude-logo logo-white" src="../images/logo-white.png">
+        </span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">All Questions</a>
+        <a class="mdl-navigation__link" href="">JavaScript Questions</a>
+
+        <div class="dude-drawer-separator"></div>
+        <span class="mdl-navigation__link" href="">Beginners Level</span>
+        <a class="mdl-navigation__link" href="">Terminology Related</a>
+        <a class="mdl-navigation__link" href="">Coding Ability Related</a>
+        <a class="mdl-navigation__link" href="">Understandability Related</a>
+        <div class="dude-drawer-separator"></div>
+        <span class="mdl-navigation__link" href="">Intermediate Level</span>
+        <a class="mdl-navigation__link" href="">Essential Terminology</a>
+        <a class="mdl-navigation__link" href="">Build Medium Size App</a>
+        <a class="mdl-navigation__link" href="">Understand Core Concpets</a>
+        <div class="dude-drawer-separator"></div>
+        <span class="mdl-navigation__link" href="">Expert Level</span>
+        <a class="mdl-navigation__link" href="">Master a Large App Related</a>
+        <a class="mdl-navigation__link" href="">Rock star and Fighter for angular</a>
+      </nav>
+    </div>
+
+    <div class="dude-content mdl-layout__content">
+      <a name="top"></a>
+      <div class="dude-be-together-section mdl-typography--text-center">
+        <div class="logo-font dude-slogan">Angular Interview Questions - Beginner</div>
+        <div class="logo-font dude-sub-slogan">master your skill... rock that interview... get the job you deserve.</div>
+        <a href="#screens">
+          <button class="dude-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+              <i class="material-icons">expand_more</i>
+            </button>
+        </a>
+      </div>
+      <div class="question-section">
+        <div class="mdl-typography--display-1-color-contrast">Familiarity to Basic Terminology</div>
+        <div class="question-container">
+          <p class=question-link><a href="">1. What are the difference between angularJS (angular 1.0) and angular?</a></p>
+          <p class=question-link><a href="">2. What is a component? why would you use it?</a></p>
+          <p class=question-link><a href="">3. What is the minimum definition of a component?</a></p>
+          <p class=question-link><a href="">4. What is a module and what does it contains?</a></p>
+          <p class=question-link><a href="">5. What is a service and why will you use it?</a></p>
+          <p class=question-link><a href="">6. What is a promise? Explain it in simple words.</a></p>
+          <p class=question-link><a href="">7. What are the life cycle hooks for component and directives?</a></p>
+          <p class=question-link><a href="">8. What is pipes?</a></p>
+          <p class=question-link><a href="">9. What is a service and why would you use it?</a></p>
+          <p class=question-link><a href="">10. What is a dumb component? and what are the benefits of dumb component?</a></p>
+        </div>
+      </div>
+      <div class="dude-wear-section">
+        <div class="dude-wear-band">
+          <div class="dude-wear-band-text">
+            <div class="mdl-typography--display-2 mdl-typography--font-thin">First try to answer yourself</div>
+            <p class="mdl-typography--headline mdl-typography--font-thin">
+              Don't assume you know the answers. Practice it as if you giving answers in front of the interviewer.
+            </p>
+            <p>
+              <a class="mdl-typography--font-regular mdl-typography--text-uppercase dude-alt-link" href="">
+                  And then check answers below.&nbsp;<i class="material-icons">chevron_right</i>
+                </a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="dude-more-section" id="answers">
+        <div class="dude-section-title mdl-typography--display-1-color-contrast">Answewrs to Basic Terminology</div>
+        <div class="dude-card-container mdl-grid">
+          <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--3dp">
+            <div class="mdl-card__title">
+              <h4 class="mdl-card__title-text">Difference between angularJS (angular 1.0) and angular (angular 2+)</h4>
+            </div>
+            <div class="mdl-card__supporting-text">
+              <span class="mdl-typography--font-light mdl-typography--subhead">Four tips to make your switch to dude quick and easy</span>
+            </div>
+            <div class="mdl-card__actions">
+              <a class="dude-link mdl-button mdl-js-button" href="">
+                   Learn More
+                   <i class="material-icons">chevron_right</i>
+                 </a>
+            </div>
+          </div>
+          <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--3dp">
+            <div class="mdl-card__title">
+              <h4 class="mdl-card__title-text">2. What is a component? why would you use it?</h4>
+            </div>
+            <div class="mdl-card__supporting-text">
+              <span class="mdl-typography--font-light mdl-typography--subhead">Answers here</span>
+            </div>
+            <div class="mdl-card__actions">
+              <a class="dude-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+                   Learn More
+                   <i class="material-icons">chevron_right</i>
+                 </a>
+            </div>
+          </div>
+
+
+
+
+        </div>
+      </div>
+
+      <footer class="dude-footer mdl-mega-footer">
+        <div class="mdl-mega-footer--top-section">
+          <div class="mdl-mega-footer--right-section">
+            <a class="mdl-typography--font-light" href="#top">
+                Back to Top
+                <i class="material-icons">expand_less</i>
+              </a>
+          </div>
+        </div>
+
+        <div class="mdl-mega-footer--middle-section">
+          <p class="mdl-typography--font-light">That JS Dude: © 2017</p>
+        </div>
+
+        <div class="mdl-mega-footer--bottom-section">
+          <a class="dude-link mdl-typography--font-light" href="www.thatjsdude.com">blog</a>
+          <a class="dude-link mdl-typography--font-light" href="https://www.facebook.com/JhankarMahbub">facebook</a>
+          <a class="dude-link mdl-typography--font-light" href="https://twitter.com/jsdude005">twitter</a>
+          <a class="dude-link mdl-typography--font-light" href="https://github.com/khan4019">github</a>
+        </div>
+
+      </footer>
+    </div>
+  </div>
+  <a href="#answers" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">Answers </a>
+  <script src="../scripts/material.min.js"></script>
+
+
+</body>
+
+</html>
