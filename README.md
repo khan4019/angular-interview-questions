@@ -1,6 +1,6 @@
 # Angular Interview Questions
 
-A complete guideline to prepare for angular interview. Also you can use these question to upgrade your expertise in angular. 
+A complete guideline to prepare for angular interview. Also, you can use these questions to upgrade your expertise in angular. 
 
 
 
@@ -33,9 +33,9 @@ A complete guideline to prepare for angular interview. Also you can use these qu
 
 
 ## Understand Your Current Level
-The most important step to understand yourself. If needed improve your skill, strength and confidence. If you don't feel confident about anything, do a favor tjo yourself by googling and spend few minutes to read some blog or youtube videos. And then check which level you are in terms of your angular skills.
+The most important step to understand yourself. If needed improve your skill, strength and confidence. If you don't feel confident about anything, do a favor to yourself by googling and spend few minutes to read some blog or youtube videos. And then check which level you are in terms of your angular skills.
 
-* If you can create a angular app by using angular-cli or any other seed. Also understand component, module, pipes, service, etc. you can consider yourself in the beginners level. If you don't have any clue what I am talking about, watch this [video](https://www.youtube.com/watch?v=rOr1r1rSZQ8) and become beginners level.
+* If you can create a angular app by using angular-cli or any other seed. Also understand component, module, pipes, service, etc. you can consider yourself in the beginners' level. If you don't have any clue what I am talking about, watch this [video](https://www.youtube.com/watch?v=rOr1r1rSZQ8) and get into beginners' level.
 * If you have full functional app that is deployed somewhere and/or published code in github and you understand detail about routing module breakdown, unit test, architecture, etc., you can consider yourself in intermediate level angular developer.
 * If you master in lazy loading, AOT, custom directive, deployment configuration, etc. you can put yourself in the expert level.
 * Rest of the people are either angular blind or angular rock star. 
@@ -43,9 +43,9 @@ The most important step to understand yourself. If needed improve your skill, st
 
 ## Know the Interviewer
 Do a favor to yourself. Google the interviewer. Look at his/her Linkedin profile. Check his/her youtube videos, old blog that wasn't developed in years and github profile. After your research try to put the interviewer in one of the following categories.
-1. Lazy interviewer asks about terminology. Sometimes they google questions and ask you from there. They mostly ask termninology related questions. Mostly old managers ask these type of questions.
+1. Lazy interviewer asks about terminology. Sometimes they google questions and ask you from there. They mostly ask terminology related questions. Mostly old managers ask this type of questions.
 2. Modest and nicer interview wants to check whether you can get the job done. and you know stuff. For this kind of interviewer look at the How category questions
-3. Smart interviewer (the guy who is a senior developer for a long time and has updated blogs and videos) wants to know that you think, you compare and analyze stuff to make consious decisions. For these type of nerdy interviewer (they would love to prove you wrong. and one important tip: don't try to prove them wrong) you should study why type of questions
+3. Smart interviewer (the guy who is a senior developer for a long time and has updated blogs and videos) wants to know that you think, you compare and analyze stuff to make conscious decisions. For these type of nerdy interviewer (they would love to prove you wrong. and one important tip: don't try to prove them wrong) you should study why type of questions
 
 
 Research team  member as well. Search people in the linked in by the company name and then look their profile in github. 
@@ -53,7 +53,7 @@ Research team  member as well. Search people in the linked in by the company nam
 
 ## Beginners Level
 
-For the beginners level an interviewer wants to know whether this interviewee is a self learner, trainable. Hence he/she might asks question about basic terminology, your ability to build some simple app and high level understanding.  
+For the beginners level an interviewer wants to know whether this interviewee is a self-learner, trainable. Hence, he/she might ask question about basic terminology, your ability to build some simple app and high level understanding.  
 
 
 ### Familiarity to Basic Terminology
@@ -75,10 +75,10 @@ For the beginners level an interviewer wants to know whether this interviewee is
 2. How would you use http to load data from server? 
 3. How do you create route in angular app?
 4. How can you get current state of a route?
-5. How do you create two way data binding in Angular?
+5. How do you create two-way data binding in Angular?
 6. How to load external module in angular app?
 7. How you build an angular app for production?
-8. Which life cycle hook will you use to unsbscribe a promise?
+8. Which life cycle hook will you use to unsubscribe a promise?
 9. How are the services injected to your application?
 10. How would you create route parameter and access it from a component?
 
@@ -89,7 +89,7 @@ For the beginners level an interviewer wants to know whether this interviewee is
 2. What is the difference between an observable and a promise?
 3. Tell me the difference between a component and a directive?
 4. Why would you use typescript aka benefits of typescript?
-5. Why different life cycle hooks is needed for a component/directive?
+5. Why different life cycle hooks are needed for a component/directive?
 6. Why angular uses rxjs?
 7. What is the purpose of using zone js?
 8. What is the difference between ngOnInit() and constructor() of a component?
@@ -118,7 +118,7 @@ In the intermediate level, you built medium size angular app and you played with
 7. What is an async pipe? What kind of data can be used with async pipe?
 8. What is injectable? Give me some example.
 9. What is a pure pipe?
-10. How will you create two way data binding in Angular?
+10. How will you create two-way data binding in Angular?
 
 
 
@@ -156,7 +156,7 @@ In the intermediate level, you built medium size angular app and you played with
 
 ## Expert Level
 
-You are a rockstar in angular. you can teach other. you can lead a team for angular project. you should know the answer to the following questions.
+You are a Rockstar in angular. you can teach other. you can lead a team for angular project. you should know the answer to the following questions.
 
 ### Performance and Edge case Related Terminology
 1. What is factory Component?
@@ -188,12 +188,12 @@ You are a rockstar in angular. you can teach other. you can lead a team for angu
 2. Why angular uses url segment?
 3. How will you make angular app secure?
 4. how will you localize numbers currencies and dates?
-5. What is the best way to use translation in you app?
-6. How will you setup different environment build differently for you app?
+5. What is the best way to use translation in your app?
+6. How will you setup different environment build differently for your app?
 7. How will you use scss or css preprocessing with your application?
 8. How will you optimize image/svg in your angular app?
-9. How would you make sure an api call that needs to be called only once but with multiple conditions. Example: if you need to get some data in multiple routes but, once you get it, you can reuse it in the routes that needs it, therefor no need to make another call to your backend apis.
-10. If you need to respond to two different Observable/Subject with one callback function, how would you do it?(ex: if you need to change the url through route parameters and with prev/next buttons).
+9. How would you make sure an api call that needs to be called only once but with multiple conditions? Example: if you need to get some data in multiple routes but, once you get it, you can reuse it in the routes that needs it, therefor no need to make another call to your backend apis.
+10. If you need to respond to two different Observable/Subject with one callback function, how would you do it? (ex: if you need to change the url through route parameters and with prev/next buttons).
 
 
 
@@ -216,20 +216,20 @@ Focus on this coding test is to judge your ability to use services, component an
 [Sample code link coming soon] 
 
 ### Persistent Todo List
-Focuses on how you pass data and events between components. Also whether you are leveraging directives and understand difference between component and directives
+Focuses on how you pass data and events between components. Also, whether you are leveraging directives and understand difference between component and directives
 Details coming soon
 
 1. Level 1:  Implement a simple todo list where you can add items, mark as done
-2. Level 2: Now create few categories of todo list and make it persistance in the browser
-3. Level 3: Now use firebase database to make todo list persitance across multiple devices
+2. Level 2: Now create few categories of todo list and make it persistence in the browser
+3. Level 3: Now use firebase database to make todo list persistence across multiple devices
 
 [Sample code link coming soon]
 
 ### Student Registration System
 Focuses on architecture for a large application. Your ability to think and implement module, lazy loading, asset management etc.
 1. Level-1: Design a system where students can login to register different courses 
-2. Level-2: Add a feature so that faculties on each courses can view how many students registered on the courses
-3. Level-3: (I need a shower. will add text here after i clean up myself) 
+2. Level-2: Add a feature so that faculties on each course can view how many students registered on the courses
+3. Level-3: (I need a shower. will add text here after I clean up myself) 
 
 [Sample code link coming soon]
 
@@ -248,20 +248,20 @@ Focuses on architecture for a large application. Your ability to think and imple
 3. How would you call base class constructor from child class in typescript?
 4. What is typescript language service?
 5. How to declare a custom type?
-6. what are the some disadvantages of typescirpt? answers [here](https://www.codeproject.com/Articles/1071285/Latest-TypeScript-Interview-Questions-for-Beginner) 
+6. what are some disadvantages of typescirpt? answers [here](https://www.codeproject.com/Articles/1071285/Latest-TypeScript-Interview-Questions-for-Beginner) 
 
 ### angular-cli
 1. Why would you use angular cli?
 2. How would you run unit test? 
-3. How do you create application to use scss
-4. How to inject base href
+3. How do you create application to use scss?
+4. How to inject base href?
 5. How would you extract webpack config from angular cli project?
 
 
 ### Others
 1. What is the use of codelyzer?
 2. Will you use Angular Material2?
-3. How would you buyild and deploy your app in multiple languages?
+3. How would you build and deploy your app in multiple languages?
 4. How would you set different config in different deployment server?
 5. What do you know about ES6?
 
