@@ -30,11 +30,6 @@ A complete guideline to prepare for angular interview. Also you can use these qu
     * [others](#others)
 
 
-#### Note from God
-On a press release, God expressed HIS apologies to send the author of this repo to a non-English speaking country and creating weekends. Since God can't create more weekends or give extra brain to the author, He is praying days and nights so that some magic fixes the typos, grammar and linguistic mistakes. 
-[Sorry to hurt your readability and English feelings. However, I am working on to improve English. If you still complain about readability, I will pull up your code. I promise :) ]
-
-
 
 ## Understand Your Current Level
 The most important step to understand yourself. If needed improve your skill, strength and confidence. If you don't feel confident about anything, do a favor tjo yourself by googling and spend few minutes to read some blog or youtube videos. And then check which level you are in terms of your angular skills.
@@ -270,6 +265,12 @@ Focuses on architecture for a large application. Your ability to think and imple
 5. What do you know about ES6?
 
 [Answers link coming soon]
+
+
+#### Note from God
+On a press release, God expressed HIS apologies to send the author of this repo to a non-English speaking country and creating weekends. Since God can't create more weekends or give extra brain to the author, He is praying days and nights so that some magic fixes the typos, grammar and linguistic mistakes. 
+[Sorry to hurt your readability and English feelings. However, I am working on to improve English. If you still complain about readability, I will pull up your code. I promise :) ]
+
 
 
 ## Contribute
