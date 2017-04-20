@@ -3,6 +3,7 @@
 A complete guideline to prepare for angular interview. Also you can use these question to upgrade your expertise in angular. 
 
 
+
 ## Table of Contents
 * [Understand Your Current Level](#understand-your-current-level)
 * [Know the Interviewer](#know-the-interviewer)
@@ -27,6 +28,12 @@ A complete guideline to prepare for angular interview. Also you can use these qu
     * [TypeScript](#typescript)
     * [angular-cli](#angular-cli)
     * [others](#others)
+
+
+#### Note from God
+On a press release, God expressed HIS apologies to send the author of this repo to a non-English speaking country and creating weekends. Since He can't create more weekends or give more brain to the author, He is praying days and nights so that someone magic will fix the typos, grammar and linguistic mistakes. 
+[Sorry to hurt your readability and English feelings, I am working on to improve English]
+
 
 
 ## Understand Your Current Level
