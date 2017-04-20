@@ -28,6 +28,7 @@ A complete guideline to prepare for angular interview. Also you can use these qu
     * [TypeScript](#typescript)
     * [angular-cli](#angular-cli)
     * [others](#others)
+* [Note from God](#note-from-god)
 
 
 
@@ -267,7 +268,7 @@ Focuses on architecture for a large application. Your ability to think and imple
 [Answers link coming soon]
 
 
-#### Note from God
+## Note from God
 On a press release, God expressed HIS apologies to send the author of this repo to a non-English speaking country and creating weekends. Since God can't create more weekends or give extra brain to the author, He is praying days and nights so that some magic fixes the typos, grammar and linguistic mistakes. 
 [Sorry to hurt your readability and English feelings. However, I am working on to improve English. If you still complain about readability, I will pull up your code. I promise :) ]
 
