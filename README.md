@@ -276,8 +276,10 @@ On a press release, God expressed HIS apologies to send the author of this repo 
 
 
 
-## Contribute
-Feel free to add/update questions
+## Contributors
+* [JS DUde](https://github.com/khan4019)
+* [Jesse M. Holmes](https://github.com/wolfhoundjesse)
+* And you?
 ___________
 
 
